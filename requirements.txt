@@ -1,12 +1,13 @@
 streamlit
 pandas
-numpy<2.0
+numpy
 matplotlib
 seaborn
 scikit-learn
 statsmodels
 prophet
-torch==2.0.1+cpu
+torch
 tensorflow
 plotly
 openpyxl
+
