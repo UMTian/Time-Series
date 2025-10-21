@@ -1,0 +1,33 @@
+COMPREHENSIVE MODEL RETRAINING RESULTS
+==================================================
+
+Retraining completed at: 2025-08-17 14:49:06
+
+DATASET: AIRLINE_PASSENGERS
+------------------------------
+LSTM: ❌ Training failed: mat1 and mat2 shapes cannot be multiplied (76x64 and 128x64)
+CNN: ✅ Successfully retrained
+Prophet: ❌ 'ProphetForecasting' object has no attribute 'save_model'
+
+DATASET: FEMALE_BIRTHS
+------------------------------
+LSTM: ❌ Training failed: mat1 and mat2 shapes cannot be multiplied (217x64 and 128x64)
+CNN: ✅ Successfully retrained
+Prophet: ❌ 'ProphetForecasting' object has no attribute 'save_model'
+
+DATASET: RESTAURANT_VISITORS
+------------------------------
+LSTM: ❌ Training failed: mat1 and mat2 shapes cannot be multiplied (314x64 and 128x64)
+CNN: ✅ Successfully retrained
+Prophet: ❌ 'ProphetForecasting' object has no attribute 'save_model'
+
+DATASET: SUPERSTORE_SALES
+------------------------------
+LSTM: ❌ Training failed: mat1 and mat2 shapes cannot be multiplied (684x64 and 128x64)
+CNN: ✅ Successfully retrained
+Prophet: ❌ 'ProphetForecasting' object has no attribute 'save_model'
+
+TRAINING PARAMETERS USED:
+------------------------------
+LSTM: {'seq_length': 20, 'epochs': 150, 'learning_rate': 0.001, 'validation_split': 0.2}
+CNN: {'seq_length': 20, 'epochs': 200, 'batch_size': 32, 'validation_split': 0.2}

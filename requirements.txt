@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy<2.0
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+prophet
+torch==2.0.1+cpu
+tensorflow
+plotly
+openpyxl

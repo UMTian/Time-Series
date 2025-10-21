@@ -1,0 +1,2 @@
+if np.any((np.isnan)(test_forecast)):
+    test_forecast = np.where(np.isnan, test_forecast, moving_avg)
